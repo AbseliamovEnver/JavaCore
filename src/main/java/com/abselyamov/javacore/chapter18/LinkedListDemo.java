@@ -1,10 +1,13 @@
 package com.abselyamov.javacore.chapter18;
 
+import java.util.Iterator;
 import java.util.LinkedList;
 
 /**
  * @author Enver on 28.05.2019 18:16.
  * @project javacore
+ * <p>
+ * class LinkedList<E> extends AbstractSequentalList implements List, Dequeue, Queue.
  */
 public class LinkedListDemo {
     public static void main(String[] args) {
@@ -22,6 +25,8 @@ public class LinkedListDemo {
         ll.addFirst("A");
 
         ll.add(1, "A2");
+
+        LinkedList<String> ll2 = new LinkedList<String>(ll);
 
         System.out.println("Original contents of ll: " + ll);
 
@@ -43,5 +48,13 @@ public class LinkedListDemo {
         ll.set(2, value + " changed");
 
         System.out.println("Contents of ll after change: " + ll);
+
+        // set Iterator at specified index
+        Iterator x = ll.listIterator(1);
+
+        // print list with the iterator
+        while (x.hasNext()) {
+            System.out.println(x.next());
+        }
     }
 }
