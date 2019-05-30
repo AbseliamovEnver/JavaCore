@@ -19,7 +19,7 @@ public class TreeSetDemo {
         String elements[] = {"H", "E", "L", "L", "O", "!"};
         TreeSet<String> treeSet1 = new TreeSet<String>(Arrays.asList(elements));
         TreeSet<String> treeSet2 = new TreeSet<String>(treeSet1);
-        TreeSet<String> treeSet3 = new TreeSet<String>(new MyComparator());
+        TreeSet<String> treeSet3 = new TreeSet<String>(new MyComparatorTS());
 
         // Add elements to the tree set.
         treeSet.add("C");
@@ -59,7 +59,7 @@ public class TreeSetDemo {
     }
 }
 
-class MyComparator implements Comparator<String> {
+class MyComparatorTS implements Comparator<String> {
     public int compare(String a, String b) {
         String aStr, bStr;
         aStr = a;
