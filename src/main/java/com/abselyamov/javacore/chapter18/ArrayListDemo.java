@@ -8,7 +8,7 @@ import java.util.Iterator;
  * @author Enver on 28.05.2019 14:10.
  * @project javacore
  * <p>
- * class ArrayList<E> extends AbstractList implements List.
+ * class ArrayList<E> extends AbstractListDemo implements List.
  */
 public class ArrayListDemo {
     public static void main(String[] args) {
