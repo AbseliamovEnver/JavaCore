@@ -11,12 +11,12 @@ public class ArrayDequeDemo<E> extends AbstractCollectionDemo<E>
         implements DequeueDemo<E>, Cloneable, java.io.Serializable {
 
     @Override
-    public boolean add(E e) {
+    public boolean add(Object o) {
         return false;
     }
 
     @Override
-    public boolean offer(E e) {
+    public boolean offer(Object o) {
         return false;
     }
 

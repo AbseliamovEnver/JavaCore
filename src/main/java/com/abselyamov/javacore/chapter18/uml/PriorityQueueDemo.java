@@ -17,12 +17,12 @@ public class PriorityQueueDemo<E>
     }
 
     @Override
-    public boolean add(E e) {
+    public boolean add(Object o) {
         return false;
     }
 
     @Override
-    public boolean offer(E e) {
+    public boolean offer(Object o) {
         return false;
     }
 
