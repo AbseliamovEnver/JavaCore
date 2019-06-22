@@ -1,0 +1,2 @@
+Use Channel I/O to read a file.
+A more compact way to open a channel.
