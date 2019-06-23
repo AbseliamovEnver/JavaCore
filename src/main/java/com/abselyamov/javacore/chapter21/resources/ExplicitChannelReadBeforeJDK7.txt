@@ -1,0 +1,1 @@
+Use Channels to read a file. Pre-JDK 7 version.

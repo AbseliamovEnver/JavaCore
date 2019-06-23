@@ -1,0 +1,1 @@
+Obtain information about a path and a file.

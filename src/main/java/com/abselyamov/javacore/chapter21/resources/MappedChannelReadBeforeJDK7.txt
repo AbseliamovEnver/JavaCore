@@ -1,0 +1,1 @@
+Use a mapped file to read a file. Pre-JDK 7 version.
